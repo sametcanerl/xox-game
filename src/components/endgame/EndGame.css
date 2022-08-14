@@ -1,0 +1,35 @@
+
+
+.end-game-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0,0,0,0.9);
+}
+
+.end-game-text{
+    font-size:5rem ;
+    color: white;
+    text-shadow: 0px 0px 8px #888;
+}
+
+.end-game-btn{
+    padding: 1rem;
+    border: none;
+    border-radius: 10%;
+    font-size: 1.5rem;
+    background-color: rgb(0,110,255);
+    color: white;
+    cursor: pointer;
+}
+
+.end-game-btn:hover{
+    box-shadow: 0px 0px 8px #888;
+    transform: scale(0.9);
+}

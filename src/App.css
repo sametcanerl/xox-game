@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+}
+
+.App {
+  background-color: rgb(228, 225, 225);
+  margin: auto;
+  width: 25rem;
+  height: 35rem;
+  border-radius: 5%;
+
+}
+
+.reset-btn{
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(0,110,255);
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 2rem auto;
+  display: block;
+  cursor: pointer;
+}
+.reset-btn:hover{
+  box-shadow: 0px 0px 8px #888;
+  transform: scale(0.9);
+}
